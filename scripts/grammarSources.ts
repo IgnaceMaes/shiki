@@ -322,7 +322,15 @@ export const githubGrammarSources: [string, string][] = [
     'zenscript',
     'https://github.com/CraftTweaker/ZenScript-tmLanguage/blob/master/zenscript.tmLanguage.json'
   ],
-  ['v', 'https://github.com/vlang/vscode-vlang/blob/master/syntaxes/v.tmLanguage.json']
+  ['v', 'https://github.com/vlang/vscode-vlang/blob/master/syntaxes/v.tmLanguage.json'],
+  [
+    'glimmer-js',
+    'https://github.com/IgnaceMaes/glimmer-textmate-grammar/blob/main/glimmer-js.tmLanguage.json'
+  ],
+  [
+    'glimmer-ts',
+    'https://github.com/IgnaceMaes/glimmer-textmate-grammar/blob/main/glimmer-ts.tmLanguage.json'
+  ]
 ]
 
 /**
@@ -379,12 +387,12 @@ export const languageDisplayOverrides: Record<string, string> = {
   apl: 'APL',
   asm: 'Assembly',
   clarity: 'Clarity',
-  'codeql': 'CodeQL',
+  codeql: 'CodeQL',
   dax: 'DAX',
   erb: 'ERB',
   fish: 'Fish',
-  'gdresource': 'GDResource',
-  'gnuplot': 'Gnuplot',
+  gdresource: 'GDResource',
+  gnuplot: 'Gnuplot',
   http: 'HTTP',
   ini: 'INI',
   'jinja-html': 'Jinja',
