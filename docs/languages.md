@@ -104,8 +104,6 @@ export type Lang =
   | 'gherkin'
   | 'git-commit'
   | 'git-rebase'
-  | 'glimmer-js' | 'gjs'
-  | 'glimmer-ts' | 'gts'
   | 'glsl'
   | 'gnuplot'
   | 'go'

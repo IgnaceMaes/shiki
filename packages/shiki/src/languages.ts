@@ -54,8 +54,6 @@ export type Lang =
   | 'gherkin'
   | 'git-commit'
   | 'git-rebase'
-  | 'glimmer-js' | 'gjs'
-  | 'glimmer-ts' | 'gts'
   | 'glsl'
   | 'gnuplot'
   | 'go'
@@ -540,22 +538,6 @@ export const languages: ILanguageRegistration[] = [
     embeddedLangs: ['shellscript']
   },
   {
-    id: 'glimmer-js',
-    scopeName: 'source.gjs',
-    path: 'glimmer-js.tmLanguage.json',
-    displayName: 'glimmer-js',
-    aliases: ['gjs'],
-    embeddedLangs: ['javascript', 'handlebars']
-  },
-  {
-    id: 'glimmer-ts',
-    scopeName: 'source.gts',
-    path: 'glimmer-ts.tmLanguage.json',
-    displayName: 'glimmer-ts',
-    aliases: ['gts'],
-    embeddedLangs: ['typescript', 'handlebars']
-  },
-  {
     id: 'glsl',
     scopeName: 'source.glsl',
     path: 'glsl.tmLanguage.json',
@@ -826,7 +808,6 @@ export const languages: ILanguageRegistration[] = [
     scopeName: 'text.marko',
     path: 'marko.tmLanguage.json',
     displayName: 'Marko',
-    samplePath: 'marko.sample',
     embeddedLangs: ['css', 'less', 'scss', 'javascript']
   },
   {
